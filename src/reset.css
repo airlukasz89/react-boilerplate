@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --site-white: rgb(255, 255, 255);
+    --site-black: rgb(0, 0, 0);
+    --site-red: rgb(255, 0, 0);
+    --site-green: rgb(0, 255, 0);
+    --site-blue: rgb(0, 0, 255);
+    --site-grey: rgb(238, 238, 238);
+    --site-yellow: rgb(255, 255, 0);
+    --transition-slow: 1s;
+    --transition-medium: 0.6s;
+    --transition-fast: 0.2s;
+}
+
+html,
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    list-style-type: none;
+}
+
+audio,
+video,
+a,
+span,
+blockquote,
+small {
+    display: inline-block;
+}
