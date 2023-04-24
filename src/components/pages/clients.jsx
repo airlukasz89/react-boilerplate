@@ -7,10 +7,9 @@ export default function Clients() {
 
   useEffect(() => {
     const getClients = async () => {
-      const result = await axios(
-        "https://hn.algolia.com/api/v1/search?query=redux"
-      );
-      setClients(result.data.hits);
+      const result = await axios("http://localhost:8000/testAPI");
+      // setClients(result.data.hits);
+      console.log(result);
     };
 
     getClients();
